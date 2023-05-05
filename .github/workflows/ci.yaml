@@ -15,7 +15,7 @@ jobs:
         name: specs
         runs-on: actuated-aarch64
         steps:
-        - uses: actions/checkout@v1
+        - uses: actions/checkout@v3
         - name: Check specs
           run: |
             ./specs.sh
